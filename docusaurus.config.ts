@@ -14,11 +14,12 @@ const config: Config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
-  url: 'https://docs.puntos.harkerlloreda.com',
-  baseUrl: '/',
+  url: 'https://dreinova.github.io',
+  baseUrl: '/documentacion-fidelizacionhl/',
 
   organizationName: 'Dreinova',
   projectName: 'documentacion-fidelizacionhl',
+  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
 
