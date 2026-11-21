@@ -1,0 +1,32 @@
+/**
+ * Tokens de marca Harker Lloreda, extraídos del design system en
+ * D:\NAS_DATA\Code\Clientes\HyL\design-system-harker-lloreda.html
+ * (mismos valores usados en resources/css/app.css de la app Laravel).
+ */
+:root {
+  --ifm-color-primary: #335c82;
+  --ifm-color-primary-dark: #2a4c6c;
+  --ifm-color-primary-darker: #24415c;
+  --ifm-color-primary-darkest: #1d344a;
+  --ifm-color-primary-light: #3d6b96;
+  --ifm-color-primary-lighter: #4a7aa3;
+  --ifm-color-primary-lightest: #6b93b5;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --hl-dermo: #f9d2a4;
+  --hl-marino: #2b3c4c;
+  --hl-teal: #5ebbc0;
+}
+
+/* Paleta más clara en modo oscuro, apoyada en el teal de marca. */
+[data-theme='dark'] {
+  --ifm-color-primary: #5ebbc0;
+  --ifm-color-primary-dark: #45a9af;
+  --ifm-color-primary-darker: #3c9ba1;
+  --ifm-color-primary-darkest: #317f84;
+  --ifm-color-primary-light: #77c7cb;
+  --ifm-color-primary-lighter: #86ced2;
+  --ifm-color-primary-lightest: #b1dde0;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}

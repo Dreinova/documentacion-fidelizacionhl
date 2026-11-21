@@ -1,0 +1,8 @@
+{
+  "label": "Módulo Admin (superadmin)",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Roles, pacientes, ventas, catálogo de premios y configuración general."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "Portal de pacientes",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Cuentas de paciente, catálogo de premios y saldo/historial de puntos."
+  }
+}
