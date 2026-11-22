@@ -14,9 +14,29 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
+  /* Tipografía de marca (misma familia que resources/css/app.css). */
+  --ifm-font-family-base: 'Montserrat', ui-sans-serif, system-ui, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --ifm-heading-font-weight: 600;
+
+  /* Fondo cálido y radios muy redondeados: igual que el sitio y el portal. */
+  --ifm-background-color: #faf8f5;
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-card-border-radius: 20px;
+  --ifm-button-border-radius: 15px;
+  --ifm-alert-border-radius: 15px;
+  --ifm-pre-border-radius: 12px;
+  --ifm-toc-border-color: #e7e5e1;
+
   --hl-dermo: #f9d2a4;
   --hl-marino: #2b3c4c;
   --hl-teal: #5ebbc0;
+  --hl-border: #e7e5e1;
+
+  /* Footer con el marino de marca, no el gris casi negro por defecto. */
+  --ifm-footer-background-color: var(--hl-marino);
+  --ifm-footer-link-color: var(--hl-teal);
+  --ifm-footer-title-color: #ffffff;
 }
 
 /* Paleta más clara en modo oscuro, apoyada en el teal de marca. */
@@ -29,4 +49,9 @@
   --ifm-color-primary-lighter: #86ced2;
   --ifm-color-primary-lightest: #b1dde0;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  --ifm-background-color: #1d2a35;
+  --ifm-background-surface-color: var(--hl-marino);
+  --ifm-navbar-background-color: var(--hl-marino);
+  --ifm-toc-border-color: #3a4b5a;
 }

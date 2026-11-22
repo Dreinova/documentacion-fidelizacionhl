@@ -28,6 +28,30 @@ const config: Config = {
     locales: ['es'],
   },
 
+  // Tipografía de marca Harker Lloreda (Montserrat), igual que en
+  // design-system-harker-lloreda.html y en el portal Laravel.
+  headTags: [
+    {
+      tagName: 'link',
+      attributes: {rel: 'preconnect', href: 'https://fonts.googleapis.com'},
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'preconnect',
+        href: 'https://fonts.gstatic.com',
+        crossorigin: 'anonymous',
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap',
+      },
+    },
+  ],
+
   presets: [
     [
       'classic',
